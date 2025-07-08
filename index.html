@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"><span>Shahad Alkhattaf</span></a>
+
+    <ul class="nav-links">
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <button class="visit-btn">Visit Github</button>
+  </header>
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <img src="header.svg" alt="coding-icon">
+
+      <div class="info-box">
+
+        <div class="text">
+          <h3>Hi, I'm</h3>
+          <h1>Shahad Alkhattaf</h1>
+          <span>web developer</span>
+        </div>
+
+        <div class="btn-group">
+          <div class="btn">Download CV</div>
+          <div class="btn">Contact</div>
+        </div>
+
+        <div class="socials">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+
+    <h2 class="section-title">Recent Projects</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <img src="project1.jpg" alt="project 1">
+        <h3>Let's Read Project</h3>
+        <p>Website</p>
+        <div class="btn-group">
+          <div class="btn">Live Demo</div>
+          <div class="btn">Github Repo</div>
+        </div>
+      </div>
+
+       <div class="project-card">
+        <img src="project2.jpg" alt="project 2">
+        <h3>InstancePharm Project</h3>
+        <p>ui/ux design</p>
+        <div class="btn-group">
+          <div class="btn">Github Repo</div>
+        </div>
+       </div>
+
+       <div class="project-card">
+        <img src="project3.jpg" alt="project 3">
+        <h3>kundergarten app Project</h3>
+        <p>android application</p>
+        <div class="btn-group">
+          <div class="btn">Github Repo</div>
+        </div>
+       </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <form action="https://formspree.io/f/xrbkwyjd" method="POST" class="input-box" autocomplete="off">
+      <h2 class="section-title">Contact Me</h2>
+
+    <div class="input">
+      <input type="email" name="email" placeholder="Your email" required autocomplete="off">
+      <i class="fa-solid fa-envelope"></i>
+    </div>
+
+    <div class="input">
+      <input type="text" name="message" placeholder="Your message" required autocomplete="off">
+      <i class="fa-solid fa-message"></i>
+    </div>
+
+    <button type="submit" class="btn">Send</button>
+  </form>
+  </section>
+
+  <footer>
+
+    <ul>
+      <li>
+        <a href="#about">About</a>
+      </li>
+
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
