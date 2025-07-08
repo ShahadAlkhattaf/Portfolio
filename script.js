@@ -2,7 +2,7 @@ const menuIcon = document.querySelector('#menu-icon');
 const navLinks = document.querySelector('.nav-links');
 const sections = document.querySelectorAll("section");
 const navLinks_a = document.querySelectorAll(".nav-links a")
-const contactForm = document.querySelector('form.input-box');
+
 let current = "";
 
 menuIcon.onclick = () => {
@@ -33,8 +33,20 @@ window.addEventListener("scroll", () => {
   });
 });
 
-document.getElementById('.visit-btn').addEventListener('click', function () {
-  window.open('https://github.com/your-username', '_blank');
+document.querySelector('.visit-btn').addEventListener('click', function () {
+  window.open('https://github.com/ShahadAlkhattaf', '_blank');
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('#github-icon').addEventListener('click', () => {
+    window.open('https://github.com/ShahadAlkhattaf', '_blank');
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('#linkedin-icon').addEventListener('click', () => {
+    window.open('https://www.linkedin.com/in/139b83332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', '_blank');
+  });
 });
 
 window.addEventListener('pageshow', () => {
