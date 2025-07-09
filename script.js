@@ -49,6 +49,26 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+document.getElementById('live-demo-project1').addEventListener('click', function() {
+  window.open('https://shahadalkhattaf.github.io/Lets_Read_Website/', '_blank');
+});
+
+document.getElementById('github-repo-project1').addEventListener('click', function() {
+  window.open('https://github.com/ShahadAlkhattaf/Lets_Read_Website', '_blank');
+});
+
+document.getElementById('live-demo-project2').addEventListener('click', function() {
+  window.open('https://www.figma.com/proto/CC9q6JXY7P54GMseCPfBbX/Untitled?node-id=9-295&node-type=frame&t=zw8bhSPqDN3ztWfu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A295', '_blank');
+});
+
+document.getElementById('github-repo-project2').addEventListener('click', function() {
+  window.open('https://github.com/ShahadAlkhattaf/InstantParm/tree/main', '_blank');
+});
+
+document.getElementById('github-repo-project3').addEventListener('click', function() {
+  window.open('https://github.com/ShahadAlkhattaf/kindergarten-app/tree/main', '_blank');
+});
+
 window.addEventListener('pageshow', () => {
   document.querySelector('form.input-box').reset();
 });
