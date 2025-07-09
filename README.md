@@ -4,8 +4,8 @@ Hi! This is my personal portfolio website where I share my projects, skills, and
 ## Here’s a quick look
 This is what the page looks like:
 ![about section](about_section) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![about section](contactMe_section) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![about section](projects_section) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![about section](contactMe_section) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
